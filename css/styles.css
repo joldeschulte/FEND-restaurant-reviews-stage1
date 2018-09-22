@@ -68,7 +68,7 @@ nav h1 a {
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
-    background-color: #eee;
+    background-color: transparent;
     font-size: 17px;
     margin: 0;
     width: calc(50% - 80px);
@@ -77,12 +77,13 @@ nav h1 a {
 /* Display list items side by side */
 #breadcrumb li {
     display: inline;
+		color: #fff;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
 #breadcrumb li+li:before {
     padding: 8px;
-    color: black;
+    color: #fff;
     content: "/\00a0";
 }
 
@@ -291,7 +292,7 @@ nav h1 a {
     content: "/\00a0";
 	}
 	#breadcrumb {
-		padding: 0;
+		padding: 20px 10px 16px;
 		text-align: center;
     list-style: none;
     background-color: transparent;
